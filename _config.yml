@@ -1,0 +1,39 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 5 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
+markdown: kramdown
+disqus: dbyll
+google_analytics: dbyll
+title: Zoran Roncevic
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values: 
+      title: ZR Blog
+
+description: ZR Personal tech blog
+author:
+  name: ZR
+  email: zroncevi@gmail.com
+  github: ZRoncevic
+  twitter: ZRoncevic
+  linkedin: zoran-rončević-94120132
+  bio: My thoughts in form of a tech blog
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH: 
+
+gems:
+  - jekyll-paginate
