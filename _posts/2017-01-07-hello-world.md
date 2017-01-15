@@ -3,7 +3,6 @@ layout: post
 title: Hello (blog) World!
 categories: [general, setup, i3]
 tags: [i3, arch, manjaro, java, spring]
-fullview: true
 ---
 
 Hello blog world. This is my first blog post and in it I would like to present to you my i3 window manager setup.
