@@ -34,7 +34,8 @@ For logging I have added AOP MethodLoggerAop.java which logs incoming requests t
 
 Spring boot actuator and Eurika client have been added for the following steps.
 
-Code for the microservice can be found here: https://github.com/ZRoncevic/spring-boot-demo-app
+Code for the microservice can be found here: [GitHub Repository](https://github.com/ZRoncevic/spring-boot-demo-app)
+
 
 Application properties file looks like so:
 {% highlight json %} 
@@ -82,7 +83,8 @@ Once Eurika is up and running in your browser it will push browser notification 
 
 ![Eureka-discovery]({{ site.url }}/assets/media/Eureka-discovery.png)
 
-Code for the Eureka server can be found here: https://github.com/ZRoncevic/demo-eureka-server
+Code for the Eureka server can be found here: [GitHub Repository](https://github.com/ZRoncevic/demo-eureka-server)
+
 
 When creating the project the important thing is to include web, Eureka server and actuator dependencies.
 
@@ -101,7 +103,7 @@ Once everything is up and running we get the following pages on http://localhost
 ![Spring-Boot-Admin]({{ site.url }}/assets/media/Spring-Boot-Admin.png)
 
 
-Code for the Spring boot admin can be found here: https://github.com/ZRoncevic/demo-boot-admin-server
+Code for the Spring boot admin can be found here: [GitHub Repository](https://github.com/ZRoncevic/demo-boot-admin-server)
 
 When creating the project the important thing is to include web, Eureka discovery and actuator dependencies from Spring plus Codecentric's:
 
@@ -132,3 +134,5 @@ It lists all Rest endpoints which are exposed, which components connect and comm
 Now imagine you have a lot more components to visualize, then you have a filters where you can exclude component that are no interest to you. And this is how it looks:
 
 ![Microservice-dashboard]({{ site.url }}/assets/media/Microservices-Dashboard.png)
+
+Code for the microservices dashboard can be found here: [GitHub Repository](https://github.com/ZRoncevic/demo-microservices-dashboard)
