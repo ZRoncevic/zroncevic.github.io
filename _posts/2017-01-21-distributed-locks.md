@@ -13,10 +13,10 @@ If you are looking for a good blog post about the subject I recommend [Martin Kl
 
 You have a few a few frameworks you can choose from: 
 
-1. [Apache Curator](http://curator.apache.org/) 
-2. [Apache Helix](http://helix.apache.org/) 
-3. [Apache Ignite](https://ignite.apache.org/) 
-4. [Hazelcast](https://hazelcast.com/) 
+*  [Apache Curator](http://curator.apache.org/) 
+*  [Apache Helix](http://helix.apache.org/) 
+*  [Apache Ignite](https://ignite.apache.org/) 
+*  [Hazelcast](https://hazelcast.com/) 
 
 They are ordered alphabetically, so you don't think I favor Curator. So here are my two cents about each of them.
 
