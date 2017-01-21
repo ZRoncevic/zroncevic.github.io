@@ -5,7 +5,7 @@ categories: [java, programming]
 tags: [java, apache-ignite, hazelcast, zookeeper]
 ---
 
-Recently at my work I came across the need for distributed locks, so I did some investigation and a small prototype to check how it can be done. Here you can my finding so perhaps I will save somebody some time if they are ever in the same situation as me. 
+Recently at my work I came across the need for distributed locks, so I did some investigation and a small prototype to check how it can be done. Here you can my findings so perhaps I will save somebody some time if they are ever in the same situation as me. 
 
 __What are distributed locks?__ - they provide software applications which are distributed across a cluster on multiple machines with a means to synchronize their accesses to shared resources. More on the subject can be found on [Wikipedia.](https://en.wikipedia.org/wiki/Distributed_lock_manager)
 
