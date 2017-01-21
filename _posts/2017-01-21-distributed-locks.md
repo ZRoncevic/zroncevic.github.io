@@ -12,10 +12,10 @@ __What are distributed locks?__ - they provide software applications which are d
 If you are looking for a good blog post about the subject I recommend [Martin Kleppmann's.](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html) In it you can find everything you need about the way it's done. So in this blog post I will focus on the framework part of how it's done.
 
 You have a few a few frameworks you can choose from:
-* [Apache Curator](http://curator.apache.org/)
-* [Apache Helix](http://helix.apache.org/)
-* [Apache Ignite](https://ignite.apache.org/)
-* [Hazelcast](https://hazelcast.com/)
+*  [Apache Curator](http://curator.apache.org/)
+*  [Apache Helix](http://helix.apache.org/)
+*  [Apache Ignite](https://ignite.apache.org/)
+*  [Hazelcast](https://hazelcast.com/)
 
 They are ordered alphabetically, so you don't think I favor Curator. So here are my two cents about each of them.
 
